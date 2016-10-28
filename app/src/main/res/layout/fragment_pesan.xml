@@ -1,0 +1,24 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="utsmopro.uts_mopro_ridwan.PesanFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+        <ListView
+            android:layout_width="wrap_content"
+            android:layout_height="422dp"
+            android:id="@+id/list_view"
+            android:layout_gravity="center_horizontal|top" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/pesan"
+        android:layout_gravity="center_horizontal|bottom"
+
+        android:text="Pesan"/>
+
+
+</FrameLayout>
